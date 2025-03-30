@@ -5,8 +5,8 @@
       "src": "api.py",
       "use": "@vercel/python",
       "config": {
-        "runtime": "python3.11",
-        "installCommand": "pip install --no-cache-dir -r requirements.txt"
+        "runtime": "python3.12",
+        "installCommand": "pip3 install --no-cache-dir --disable-pip-version-check -r requirements.txt"
       }
     },
     {
