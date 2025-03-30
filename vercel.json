@@ -6,7 +6,7 @@
       "use": "@vercel/python",
       "config": {
         "runtime": "python3.12",
-        "installCommand": "pip3 install --no-cache-dir --disable-pip-version-check -r requirements.txt"
+        "installCommand": "pip3 install --no-cache-dir --disable-pip-version-check --no-deps -r requirements.txt"
       }
     },
     {
